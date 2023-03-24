@@ -10,8 +10,7 @@ root.withdraw()
 # Meminta pengguna untuk memilih folder input
 folder_input = filedialog.askdirectory(title="Pilih Folder Input")
 
-# Meminta pengguna untuk memilih folder output
-folder_output = filedialog.askdirectory(title="Pilih Folder Output")
+folder_output = folder_input
 
 # Loop melalui file di dalam folder input
 for file in os.listdir(folder_input):
